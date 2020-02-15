@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 /**
  * This program calculates the amount of logs a truck can carry given the length of logs.
  * 
@@ -5,14 +7,17 @@
  * @version 1.0
  * @since 2020-02-12
  */
- 
-import java.util.Scanner;
 
 public class LogTruck {
+  // Create variables 
+  
   static double lengthOfLogs;
   static double weight;
   static int numberOfLogs;
   
+  /**
+  * This class calculates the amount of logs a truck can carry given the length of logs.
+  */
   public static void main(String[] args) {
     // Create scanner object
     Scanner userInput = new Scanner(System.in);
